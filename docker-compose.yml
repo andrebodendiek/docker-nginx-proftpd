@@ -17,7 +17,7 @@ services:
       - ./data:/data
       - ./proftpd.conf:/etc/proftpd/proftpd.conf
 
-    hostname: ftpserver
+    #hostname: ftpserver
   web:
     image: nginx:alpine
     ports:
